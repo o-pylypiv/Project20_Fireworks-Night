@@ -42,9 +42,8 @@ class GameScene: SKScene {
     
     @objc func launchFireworks() {
         fireworkLaunches += 1
-        if fireworkLaunches >= 2 {
+        if fireworkLaunches >= 5 {
             finishGame()
-            //gameTimer?.invalidate()
         }
         let movementAmount: CGFloat = 1800
         
